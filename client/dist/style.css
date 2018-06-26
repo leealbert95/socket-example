@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.twittler-button {
+  border-radius: 4px;
+  background: #013569;
+  color: white;
+  border: none;
+}
+
+.content {
+  margin: 5px;
+  margin-top: 105px;
+}
+
+.header {
+  position: absolute;
+  text-align: right;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  background: #1489FF;
+  color: white;
+  margin: 0px;
+  line-height: 10px;
+}
+
+.header h1 {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.login {
+  display: table;
+  color: white;
+  margin: 0 auto;
+  height: 300px;
+  width: 500px;
+  background: #1489FF;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.login-button, .tweet-button {
+  border-radius: 4px;
+  background: #013569;
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+.tweet-button {
+  height: 36px;
+  width: 72px;
+  transform: translateY(-14px);
+  margin-left: 10px;
+}
+
+.login-button {
+  margin-left: 10px;
+  padding: 3px;
+}
+
+.login-form {
+  height: 50px;
+}
+
+.login-title {
+  font-size: 30px;
+}
+
+.tweet-box {
+  width: 500px;
+}
+
+.tweet-entry {
+  border-bottom: 1px solid #D4D4D4;
+  word-wrap: break-word;
+}
+
+.tweet-entry > div {
+  margin-left: 10px;
+}
+
+.tweet-feed {
+  height: 700px;
+  width: 500px;
+  border: 5px solid blue;
+  overflow-y: scroll;
+}
+
+.tweet-form {
+  width: 500px;
+}
+
+.tweet-form span {
+  height: 40px;
+}
+
+.tweet-text-field {
+  width: 400px;
+}
+
